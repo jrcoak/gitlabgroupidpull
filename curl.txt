@@ -1,0 +1,1 @@
+curl --header "PRIVATE-TOKEN: <token> " "https://gitlab.com/api/v4/groups" | jq -r '.[].id' | paste -sd "," -
